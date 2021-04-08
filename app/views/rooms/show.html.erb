@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @room.name %>
+</p>
+
+<div id="videos"
+     data-controller="vanage"
+     data-vanage-token="<%= @token %>"
+     data-vanage-api-key="<%= Rails.application.credentials.vanage_api_key %>"
+     data-vanage-session-id="<%= @room.vanage_session_id %>"
+     vanage-name="<%= current_user.name %>"></div>
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>
