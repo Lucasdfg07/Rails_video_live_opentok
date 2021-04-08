@@ -1,7 +1,3 @@
-
-![Logo of the project](https://github.com/Lucasdfg07/Spotify_clone/blob/master/app/javascript/assets/images/logo.png)
-
-
 ## Rails Live
 It's an test application to create live stream rooms.
 
